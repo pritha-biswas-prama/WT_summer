@@ -3,8 +3,8 @@
     <title>Bank Management system</title>
     <body>
         <center>
-            <h1 style="color: darkblue;">Bank Management System</h1>
-            <h1 style="color: darkblue;">Bank Management System</h1>
+            <h1 style="color: rgba(85, 35, 2, 0.911);">Bank Management System</h1>
+            <h2 style="color: rgb(70, 32, 2);">Your Trusted Financial Partner</h2>
         </center>
     </body>
 </html>
