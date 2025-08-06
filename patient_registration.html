@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Patient Registration
+    </title>
+</head>
+<link rel="stylesheet"href="patient.css">
+    <h2 style="color: rgb(13, 13, 161);"> <center>Clinic Patient Registration Form </center> </h2>
+<body>
+    <form id="registrationForm" onsubmit="validation()">
+<center>
+    <table>
+        <tr>
+            <td>Full Name:</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="name"></td>
+        </tr>
+         <tr>
+            <td>Age:</td>
+        </tr>
+        <tr>
+            <td><input type="number" id="age"></td>
+        </tr>
+         <tr>
+            <td>Phone Number:</td>
+        </tr>
+        <tr>
+            <td><input type="number" id="phone"></td>
+        </tr>
+         <tr>
+            <td>Email Adress:</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="email"> </td>
+        </tr>
+         <tr>
+            <td>Insurence Provider:</td>
+        </tr>
+        <tr>
+            <td>
+                <select id="insurence" >
+                    <option value="Select Provider">Select Provider</option>
+                </select>
+            </td>
+        </tr>
+         <tr>
+            <td>Insurence Policy Number:</td>
+        </tr>
+        <tr>
+            <td><input type="text" id="ipnumber"></td>
+        </tr> 
+    </table>
+    <h2 style="color: rgb(8, 8, 158);"> Additional Information</h2>
+    <table>
+        <tr>
+           <td>User Name:</td>
+        </tr>
+          <tr>
+           <td><input type="text" id="username"></td>
+        </tr>
+         <tr>
+           <td>Password:</td>
+        </tr>
+          <tr>
+           <td><input type="text" id="password"></td>
+        </tr>
+         <tr>
+           <td>Confirm Password:</td>
+        </tr>
+          <tr>
+           <td><input type="text" id="confirmPass"></td>
+    </table>
+    <button type="submit">Register</button>
+</center>
+<script src="validation.js"></script>
+</form> 
+</body>
